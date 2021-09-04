@@ -6,7 +6,7 @@ from pandas.io import gbq
 
 
 #Read excel file
-table1 = pd.read_excel('C:\Users\ROT2HC\Documents\GitHub\streamlit_testing\HPDataReportDataCracy(1).xlsx',sheet_name='DL CT')
+table1 = pd.read_excel(r'C:\Users\ROT2HC\Documents\GitHub\streamlit_testing\HPDataReportDataCracy(1).xlsx',sheet_name='DL CT')
 table1.head()
 
 order = table1[["Mã ĐH","Trạng thái xuất kho","Trạng thái thanh toán","Trạng thái đơn hàng"]]
